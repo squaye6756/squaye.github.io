@@ -1,0 +1,62 @@
+#title {
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-recap {
+    width: 16em;
+    margin-left: 2em;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2em;
+    text-align: right;
+}
+
+img {
+    max-height: 5vh;
+    max-width: 5vw;
+    margin: .5em;
+    cursor: pointer;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    margin-left: 2em;
+}
+
+@media (max-width: 500px) {
+    .project-recap {
+        width: 10em;
+        margin-left: 1em;
+    }
+
+    .about {
+        margin-left: 1em;
+    }
+
+    .project-links {
+        margin-right: 1em;
+        justify-content: center;
+    }
+
+    .about p, .about h1 {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .project-recap {
+        width: 8em;
+    }
+}
