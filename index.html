@@ -24,65 +24,102 @@
                 </a>
             </div>
         </div>
+
         <h2 id="title">Projects</h2>
-        <div class="projects-container">
-            <div class="project">
-                <div class="project-recap">
-                    <h3>Frames, Frames, Frames</h3>
-                    <p>An app using ajax calls to a 3rd-party API to
-                    look up frame data for characters in Super Smash Bros</p>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/squaye6756/Project-1" target="_blank">Project Repo</a>
-                    <a class='btn btn-success' href="https://competent-keller-89a6f8.netlify.app" target="_blank">Live Site</a>
-                </div>
-            </div>
-            <div class="project">
-                <div class="project-recap">
-                    <h3>Coin Sharing Collection</h3>
-                    <p>A RESTful MPA that allows users to display their
-                    coin collection online</p>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/squaye6756/Project-2" target="_blank">Project Repo</a>
-                    <a class='btn btn-success' href="https://murmuring-dusk-27318.herokuapp.com" target="_blank">Live Site</a>
+
+        <div id="projects-container" class="accordion">
+
+            <div class="project accordion-item" id="project-one">
+                <h3 class="project-recap accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Frames, Frames, Frames
+                    </button>
+                </h3>
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="project-one" data-bs-parent="#projects-container">
+                    <div class="accordion-body">
+                        <p>An app using ajax calls to a 3rd-party API to
+                        look up frame data for characters in Super Smash Bros</p>
+                        <div class="project-links">
+                            <a href="https://github.com/squaye6756/Project-1" target="_blank">Project Repo</a>
+                            <a class='btn btn-success' href="https://cranky-bardeen-3262e2.netlify.app" target="_blank">Live Site</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="project">
-                <div class="project-recap">
-                    <h3>Streetball</h3>
-                    <p>Collaborative MERN-stack SPA that allows anyone to
-                    post and brag about their streetball team's skills
-                    and record</p>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/squaye6756/Project-3-Back-End" target="_blank">Project Repo (Backend)</a>
-                    <a href="https://github.com/squaye6756/Project-3-Front-End" target="_blank">Project Repo (Frontend)</a>
-                    <a class='btn btn-success' href="https://streetball-front.herokuapp.com" target="_blank">Live Site</a>
-                </div>
-            </div>
-            <div class="project">
-                <div class="project-recap">
-                    <h3>Brackets-R-Us</h3>
-                    <p>Collaborative SPA that allows users to host, join,
-                    and manage tournaments</p>
-                </div>
-                <div class="project-links">
-                    <a href="https://github.com/squaye6756/BracketsRUs-back" target="_blank">Project Repo (Backend)</a>
-                    <a href="https://github.com/squaye6756/BracketsRUs-front" target="_blank">Project Repo (Frontend)</a>
-                    <a class='btn btn-success' href="https://brackets-r-us.herokuapp.com" target="_blank">Live Site</a>
+
+            <div class="project accordion-item" id="project-two">
+                <h3 class="project-recap accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Coin Sharing Collection
+                    </button>
+                </h3>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="project-two" data-bs-parent="#projects-container">
+                    <div class="accordion-body">
+                        <p>A RESTful MPA that allows users to display their
+                        coin collection online</p>
+                        <div class="project-links">
+                            <a href="https://github.com/squaye6756/Project-2" target="_blank">Project Repo</a>
+                            <a class='btn btn-success' href="https://murmuring-dusk-27318.herokuapp.com" target="_blank">Live Site</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="project">
-                <div class="project-recap">
-                    <h3>Inventorial</h3>
-                    <p>Basic SPA using Angular to allow users to manage
-                    items in their inventory</p>
+
+            <div class="project accordion-item" id="project-three">
+                <h3 class="project-recap accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Streetball
+                    </button>
+                </h3>
+                <div id='collapseThree' class="accordion-collapse collapse" aria=labelledby="project-three" data-bs-parent='#projects-container'>
+                    <div class="accordion-body">
+                        <p>A collaborative MERN-stack SPA that allows anyone to
+                        post and brag about their streetball team's skills
+                        and record</p>
+                        <div class="project-links">
+                            <a href="https://github.com/squaye6756/Project-3-Back-End" target="_blank">Project Repo (Backend)</a>
+                            <a href="https://github.com/squaye6756/Project-3-Front-End" target="_blank">Project Repo (Frontend)</a>
+                            <a class='btn btn-success' href="https://streetball-front.herokuapp.com" target="_blank">Live Site</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-links">
-                    <a href="https://github.com/squaye6756/inventorial-back" target="_blank">Project Repo (Backend)</a>
-                    <a href="https://github.com/squaye6756/inventory-front" target="_blank">Project Repo (Frontend)</a>
-                    <a class='btn btn-success' href="https://zen-roentgen-9e644e.netlify.app" target="_blank">Live Site</a>
+            </div>
+
+            <div class="project accordion-item" id='project-four'>
+                <h3 class="project-recap accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Brackets-R-Us
+                    </button>
+                </h3>
+                <div id='collapseFour' class="accordion-collapse collapse" aria=labelledby="project-four" data-bs-parent='#projects-container'>
+                    <div class="accordion-body">
+                        <p>A collaborative SPA that allows users to host, join,
+                        and manage tournaments</p>
+                        <div class="project-links">
+                            <a href="https://github.com/squaye6756/BracketsRUs-back" target="_blank">Project Repo (Backend)</a>
+                            <a href="https://github.com/squaye6756/BracketsRUs-front" target="_blank">Project Repo (Frontend)</a>
+                            <a class='btn btn-success' href="https://brackets-r-us.herokuapp.com" target="_blank">Live Site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project accordion-item" id='project-five'>
+                <h3 class="project-recap accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Inventorial
+                    </button>
+                </h3>
+                <div id='collapseFive' class="accordion-collapse collapse" aria=labelledby="project-five" data-bs-parent='#projects-container'>
+                    <div class="accordion-body">
+                        <p>Basic SPA using Angular to allow users to manage
+                        items in their inventory</p>
+                        <div class="project-links">
+                            <a href="https://github.com/squaye6756/inventorial-back" target="_blank">Project Repo (Backend)</a>
+                            <a href="https://github.com/squaye6756/inventory-front" target="_blank">Project Repo (Frontend)</a>
+                            <a class='btn btn-success' href="https://zen-roentgen-9e644e.netlify.app" target="_blank">Live Site</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

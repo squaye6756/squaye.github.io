@@ -2,7 +2,7 @@
     text-align: center;
 }
 
-.project {
+/* .project {
     display: flex;
     justify-content: space-between;
 }
@@ -17,7 +17,7 @@
     flex-direction: column;
     margin-right: 2em;
     text-align: right;
-}
+} */
 
 img {
     max-height: 5vh;
