@@ -1,27 +1,21 @@
-#title {
+.title {
     text-align: center;
+    margin-bottom: 1em;
 }
 
-/*
-.project {
+.skill-img {
+    max-width: 10vw;
+    max-height: 10vh;
+}
+
+.skills {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
 }
 
-.project-recap {
-    width: 16em;
-    margin-left: 2em;
-}
-
-.project-links {
-    display: flex;
-    flex-direction: column;
-    margin-right: 2em;
-    text-align: right;
-}
-*/
-
-img {
+.img-links {
     max-height: 5vh;
     max-width: 5vw;
     margin: .5em;
