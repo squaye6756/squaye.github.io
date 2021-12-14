@@ -4,15 +4,16 @@
 }
 
 .skill-img {
-    max-width: 10vw;
-    max-height: 10vh;
+    width: 5em;
+    height: 5em;
+    margin: .5em auto;
 }
 
 .skills {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 2em;
+    margin: 2em;
 }
 
 .img-links {
@@ -35,6 +36,10 @@
     .project-recap {
         width: 10em;
         margin-left: 1em;
+    }
+
+    .skills {
+        margin: 1em;
     }
 
     .about {
