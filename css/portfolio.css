@@ -3,6 +3,10 @@
     margin-bottom: 1em;
 }
 
+.skill {
+    text-align: center;
+}
+
 .skill-img {
     width: 5em;
     height: 5em;
